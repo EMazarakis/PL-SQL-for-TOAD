@@ -43,8 +43,11 @@ SELECT column1, column2 FROM table_name WHERE column3 != 'searchValue';
 --- % : instead of too many characters
 --- _ : instead of one character
 
-select * from table_name where column1 like '%aabra_cada_bra';
+--- Return the column1, column2 for the records where column3 has the pattern whatever characters ended with aabra_cada_bra text
+SELECT column1, column2 FROM table_name WHERE column3 LIKE '%aabra_cada_bra';
 
+--- Return the column1, column2 for the records where column3 has the pattern starts with A whatever character and ends with S
+SELECT column1, column2 FROM table_name WHERE column3 LIKE 'A_S';
 
 
 
