@@ -13,3 +13,8 @@ SELECT column1 AS "newNameOfTheColumn1" FROM table_name;
 
 --- Return the disctinct values of the column1 field
 SELECT DISTINCT colums1 FROM table_name;
+
+--- ORDER BY field [ASC | DESC]
+
+SELECT column1, column2 FROM table_name ORDER BY column3 ASC;   ----ASCEDING ORDER
+SELECT column1, column2 FROM table_name ORDER BY column3 DESC;  ---- Descending Order
