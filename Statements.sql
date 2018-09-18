@@ -1,4 +1,6 @@
 
+CREATE DATABASE learn_sql_the_hard_way;
+
 SELECT * FROM table_name;   --- For the selected table return  all the records (*)
 
 SELECT column1  FROM table_name; --- Return only the column1 field for all records of the table
