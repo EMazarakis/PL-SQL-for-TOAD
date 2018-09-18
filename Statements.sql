@@ -15,7 +15,8 @@ SELECT column1 AS "newNameOfTheColumn1" FROM table_name;
 SELECT DISTINCT colums1 FROM table_name;
                                                       
                                                       
----- WHERE : the fileds of the SELECT part are returned when the WHERE part is TRUE.   
+---- WHERE : the fields of the SELECT part are returned when the WHERE part is TRUE.
+---- Compare Characters: 'A' < 'B' < 'C' < 'D' < .... 
 
 
 --- Return the values of the column1, column2 when column3 (field) has value equal to 'searchValue'                                 
