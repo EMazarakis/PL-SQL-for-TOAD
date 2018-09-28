@@ -5,9 +5,9 @@ A Brief Manual of PL/SQL for TOAD
 
 
 
-PL/SQL to-do-list
-:ok_hand: where 
-:ok_hand: like  
+PL/SQL to-do-list 
+:ok_hand: where   
+:ok_hand: like     
 :point_right: order by  
 :point_right: select distinct 
 
