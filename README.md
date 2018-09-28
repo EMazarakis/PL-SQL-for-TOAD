@@ -6,6 +6,6 @@ A Brief Manual of PL/SQL for TOAD
 
 
 PL/SQL to-do-list   
-- [ ] where 
-- [ ] like 
-- [ ] oder by 
+- [x] where 
+- [x] like 
+- [x] oder by 
