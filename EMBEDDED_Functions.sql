@@ -9,3 +9,6 @@ SELECT MIN(column1)  FROM  table_name;
 
 --- Return the maximum value of the field column1
 SELECT MAX(column1)  FROM  table_name;
+
+--- Return the number of rows where column1 is not null
+select count(column1) from table_name;
